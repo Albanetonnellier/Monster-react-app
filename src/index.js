@@ -24,16 +24,26 @@ class App extends Component {
 		super();
 
 	this.state = {
-		monsters: {
+		monsters: [
+		{
 			name: 'Frankenstein'
 		},
 		{
 			name: 'Dracula'
-		}
 		},
 		{
 			name: 'Zombie'
 		}
-	}
-	}
+	]
+	};
+}
+
+render() {
+	return (
+		<div className='App'>
+		{
+			this.state.monsters.map(monster => 
+		</div>
+
+		)
 }
